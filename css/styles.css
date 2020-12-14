@@ -4,13 +4,13 @@ body{
 }
 
 .white-section {
-    padding: 5% 22%;
+    padding: 5% 25%;
     background: #F8F8F8;
 }
 
 .colored-section {
     padding: 5% 22%;
-    background: #4D6F82;
+    background: #38515f;
     color: white;
 }
 
@@ -29,6 +29,22 @@ body{
 
 #navbar a:hover {
     color: #8b552f;
+}
+
+#projects a {
+    color: black;
+}
+
+#projects a:hover {
+    color: rgb(77, 77, 77);
+}
+
+#socials a {
+    color: white;
+}
+
+#socials a:hover {
+    color: rgb(212, 212, 212);
 }
 
 a:link {
@@ -73,4 +89,25 @@ a:visited {
     max-width: 60%;
     height: auto;
     border-radius: 100px;
+}
+
+#logo {
+    max-width: 65px;
+    height: auto;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-bottom: 10%;
+}
+
+#projects {
+    text-align: center;
+}
+
+#socials {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.icon {
+    padding: 3px 10px;
 }
