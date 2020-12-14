@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -110,4 +114,11 @@ a:visited {
 
 .icon {
     padding: 3px 10px;
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+    background: #38515f;
+    color: white;
 }
