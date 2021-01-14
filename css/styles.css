@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    margin: 0;
+    margin-top: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body{
 
 .colored-section {
     padding: 7% 22%;
-    background: #38515f;
+    background: #567b91;
     color: white;
 }
 
@@ -85,24 +85,12 @@ a:visited {
     font-size: 90px;
 }
 
-@media only screen and (max-width: 768px) {
-    #title h1 {
-      font-size: 50px;
-    }
-}
-  
-@media only screen and (max-width: 320px) {
-    title h1 {
-      font-size: 20px;
-    }
-}
-
 #prof-alignment{
     text-align: center;
 }
 
 #profile-pic {
-    max-width: 60%;
+    max-width: 125px;
     height: auto;
     border-radius: 100px;
 }
@@ -129,8 +117,50 @@ a:visited {
 }
 
 footer {
-    padding: 2%;
+    padding: 2% 5%;
     text-align: center;
-    background: #38515f;
+    background: #567b91;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    #title h1 {
+      font-size: 50px;
+    }
+
+    .white-section {
+        padding: 10% 15%;
+    }
+
+    .colored-section {
+        padding: 10% 15%;
+    }
+
+    #profile-pic {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .white-section {
+        padding: 10% 10%;
+    }
+
+    .colored-section {
+        padding: 10% 10%;
+    }
+}
+  
+@media only screen and (max-width: 320px) {
+    .white-section {
+        padding: 10% 10%;
+    }
+
+    .colored-section {
+        padding: 10% 10%;
+    }
+
+    #profile-pic {
+        margin-bottom: 10px;
+    }
 }
