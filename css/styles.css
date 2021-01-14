@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    margin-top: 55px;
+    margin-top: 35px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,7 +21,7 @@ body{
 #navbar {
     background-color: black;
     justify-content: space-between;
-    padding: 1% 2%;
+    padding: 15px 10px;
     text-align: center;
     overflow: hidden;
 }
