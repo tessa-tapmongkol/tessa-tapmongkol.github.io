@@ -8,12 +8,12 @@ body{
 }
 
 .white-section {
-    padding: 7% 25%;
+    padding: 7% 25% 10% 25%;
     background: #F8F8F8;
 }
 
 .colored-section {
-    padding: 7% 22%;
+    padding: 7% 22% 10% 25%;
     background: #567b91;
     color: white;
 }
