@@ -107,6 +107,15 @@ a:visited {
     text-align: center;
 }
 
+.link {
+    color: black;
+    margin-left: 10px;
+}
+
+.link:hover {
+    color:rgb(116, 116, 116);
+}
+
 #socials {
     text-align: center;
     margin: 3% 0;
