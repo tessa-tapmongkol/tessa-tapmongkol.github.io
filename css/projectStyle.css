@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/projects-background.jpg");
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    margin: 7% 10% 0% 10%;
+}
+
+.project-folder {
+    width: fit-content;
+    margin: 7%;
+    text-align: center;
+}
+
+.folder {
+    max-width: 90px;
+    padding: 0;
+}
+
+.folder-title {
+    margin: 0;
+}
+
+.folder-link {
+    color: black;
+}
+
+.folder-link:hover {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url("../images/project-background-mobile.jpg");
+        margin: 20% 8% 0% 8%;
+    }
+
+    .project-folder {
+        margin: 7%;
+    }
+
+    .folder {
+        max-width: 50px;
+    }
+
+    .folder-title {
+        font-size: 10px;
+    }
+}

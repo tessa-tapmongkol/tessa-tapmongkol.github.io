@@ -17,23 +17,6 @@ body{
     color: white;
 }
 
-#navbar {
-    background-color: black;
-    justify-content: space-between;
-    padding: 15px 10px;
-    text-align: center;
-    overflow: hidden;
-}
-
-#navbar a {
-    color: #D37F42;
-    margin: 0 10px;
-}
-
-#navbar a:hover {
-    color: #8b552f;
-}
-
 #projects a {
     color: black;
 }
@@ -58,12 +41,6 @@ a:visited {
     text-decoration: none;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
 #home{
     background-image: url("../images/home-image.PNG");
     height: 100%;
@@ -74,7 +51,7 @@ a:visited {
 
 #title {
     text-align: center;
-    padding: 24% 10%;
+    padding: 18.5% 10%;
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -132,6 +109,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        margin-top: 35px;
+    }
+
     #title h1 {
       font-size: 50px;
     }

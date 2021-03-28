@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/tab_logo.PNG">
+
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/projectStyle.css">
 
     <!-- Bootstrap Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -26,18 +29,107 @@
     <script src="https://kit.fontawesome.com/f2518691a2.js" crossorigin="anonymous"></script>
 
     <!--Font Awesome-->
-  <script src="https://kit.fontawesome.com/f2518691a2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f2518691a2.js" crossorigin="anonymous"></script>
 
     <title>Projects</title>
 </head>
+
 <body>
     <!--Navigation Bar-->
-    <div class="fixed-top" id="navbar">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#experience">EXPERIENCE</a>
-        <a href="#photography">PHOTOGRAPHY</a>
-        <a href="#contact">CONTACT</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/tab_logo.PNG" width="30" height="28" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">ABOUT </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#experience">EXPERIENCE </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">PROJECTS </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#photography">PHOTOGRAPHY </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">CONTACT </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Project Folders-->
+    <div class="row">
+        <div class="col-6 col-sm-3 offset-md-3 col-md-3">
+            <a class="folder-link" href="projects/getOutOfTheRain.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">Get Out of The Rain!</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+            <a class="folder-link" href="projects/teamTech.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">Team Tech Website</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-4 offset-md-4">
+            <a class="folder-link" href="index.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">Trees App</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 col-md-4">
+            <a class="folder-link" href="index.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">C Shell</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <a class="folder-link" href="index.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">Medusa</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 col-md-4 offset-md-4">
+            <a class="folder-link" href="index.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">LZW Compressor</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 offset-6">
+            <a class="folder-link" href="index.html">
+                <div class="project-folder">
+                    <img class="folder" src="folder-icon.png" alt="medusa">
+                    <p class="folder-title">Edit Distance</p>
+                </div>
+            </a>
+        </div>
     </div>
 </body>
+
 </html>

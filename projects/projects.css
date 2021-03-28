@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 80px 28%;
+    text-align: center;
+}
+
+#description {
+    text-align: left;
+}
+
+.icon {
+    color: black;
+}
+
+.icon:hover {
+    color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        color: black;
+        margin: 80px 10%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+}
