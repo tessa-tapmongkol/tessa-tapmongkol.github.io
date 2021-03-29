@@ -17,7 +17,6 @@ body {
 .timeline img {
     max-width: 70px;
     max-height: 70px;
-    border-radius: 100px;
     position: relative;
     margin-top: 10px;
 }
