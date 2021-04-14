@@ -4,6 +4,10 @@ body {
     text-align: center;
 }
 
+.transparent {
+    background: transparent;
+}
+
 #description {
     text-align: left;
 }
