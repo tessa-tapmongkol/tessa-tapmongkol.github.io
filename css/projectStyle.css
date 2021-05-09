@@ -1,39 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(29, 29, 29);
+    padding: 0 1%;
 }
 
 .transparent {
     background: transparent;
-}
-
-#videoBG {
-    position: fixed;
-    z-index: -1;
-}
-
-@media (min-aspect-ratio: 16/9) {
-    #videoBG {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9){
-    #videoBG {
-        width: auto;
-        height: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-    
-    body {
-        background: url("../images/posture.JPG");
-        background-size: cover;
-    }
 }
 
 .project-folder {
@@ -61,11 +33,6 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        background-image: url("../images/project-background-mobile.jpg");
-        margin: 20% 8% 0% 8%;
-    }
-
     .project-folder {
         margin: 7%;
     }
@@ -76,5 +43,11 @@ body {
 
     .folder-title {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10% 1%;
     }
 }
