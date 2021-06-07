@@ -4,10 +4,6 @@ body {
     padding: 0 1%;
 }
 
-.transparent {
-    background: transparent;
-}
-
 .project-folder {
     width: fit-content;
     margin: 7%;
